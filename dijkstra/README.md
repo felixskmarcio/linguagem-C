@@ -5,6 +5,13 @@ O Algoritmo de Dijkstra (E.W. Dijkstra) é um dos algoritmos que calcula o camin
 
 ![heapsort](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)        
 
+
+## Aplicações do algoritmo de Dijkstra
+ - Para encontrar o caminho mais curto
+ - Em aplicativos de redes sociais
+ - Em uma rede telefônica
+ - Para encontrar os locais no mapa
+
 # Tecnologias
         Para este projeto foi utilizada a tecnologia:
         - C
