@@ -1,4 +1,3 @@
-#include <stdio.h>
 #define INFINITO 9999
 #define MAX 10
 
