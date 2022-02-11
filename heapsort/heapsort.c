@@ -1,19 +1,10 @@
+#include "heapsort.h"
+#define MAX 10
+#define INFINITO 9999
 
-/* 
-Implementação do Algoritmo Heap Sort
 
-tradução
-sieve → Perneira
-root → Raiz
-back → Fundo
-ready → pronto
-child → filho
-
-*/
-#define max 10
-
-void sieve(int *vet, int root, int back);
-void heapsort(int *vet, int n) {  // Função peneira
+void heapsort(int *vet, int n)
+{ // Função peneira
 	int i, tmp;
 
 	for (i = (n / 2); i >= 0; i--)
@@ -59,19 +50,7 @@ void sieve(int *vet, int root, int back)
 		}
 		else
 		{
-			ready = 1; // Antigo pai 
+			ready = 1; // Antigo pai
 		}
 	}
-}
-
-int main()
-{
-	int vetor[max] = {5, 2, 7, 8, 10, 6, 1, 4, 9, 3};
-	int i;
-	heapsort(vetor, max);
-	for (i = 0; i < max; i++)
-	{
-		printf("%d ", vetor[i]);
-	}
-	return (0);
 }
