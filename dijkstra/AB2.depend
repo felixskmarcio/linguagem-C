@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1644544834 source:g:\rafael\sistema de informação\programaÇÃo 2\prova ab2\ab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AB2.h"
+
+1644542722 g:\rafael\sistema de informação\programaÇÃo 2\prova ab2\ab2\ab2.h
+
+1644543354 source:g:\rafael\sistema de informação\programaÇÃo 2\prova ab2\ab2\ab2.c
+	"AB2.h"
+
+1644543354 source:c:\users\administrator\desktop\ab2\ab2.c
+	"AB2.h"
+
+1644542722 c:\users\administrator\desktop\ab2\ab2.h
+
+1644544834 source:c:\users\administrator\desktop\ab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AB2.h"
+
